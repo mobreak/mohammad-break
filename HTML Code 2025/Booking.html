@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الحجز</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #575757;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .booking-form {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 50px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .booking-form h2 {
+            color: #000000;
+        }
+        .booking-form label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: right;
+        }
+        .booking-form input, .booking-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .booking-form button {
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .booking-form button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="booking-form">
+        <h2>نموذج الحجز</h2>
+        <form action="refresh page.html" method="post">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="package">اختر الباقة:</label>
+            <select id="package" name="package" required>
+                <option value="خمس جولت">خمس جولات</option>
+                <option value="الجولة الثلاثية">الجولة الثلاثية</option>
+                <option value="استراحة استجمام">استراحة استجمام</option>
+            </select>
+
+            <label for="date">تاريخ الحجز:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">تأكيد الحجز</button>
+        </form>
+    </div>
+
+</body>
+</html>

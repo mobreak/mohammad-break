@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1e1e2e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #2a2a3a;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+        .facilities-button {
+            margin-top: 20px;
+            background-color: #ffffff;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .facilities-button:hover {
+            background-color: #ccc;
+        }
+        .contact-section {
+            background-color: #2a2a3a;
+            padding: 40px;
+            margin-top: 40px;
+            border-radius: 10px;
+            text-align: right;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact-section h2 {
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1e1e2e;
+            color: #fff;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+    
+    <div class="contact-section">
+        <h2>اتصل بنا</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="text" placeholder="الموضوع" required>
+            <textarea placeholder="الرسالة" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+</body>
+</html>

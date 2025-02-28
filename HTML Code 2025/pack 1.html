@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الحجز</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('mo 1.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            height: 100vh;
+            }
+
+         body::before {
+            content: "";
+            background-image: url('mo 1.jpg');
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; 
+        }
+
+            
+        
+        .booking-form {
+            background-color: #ffffff;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 10px;
+            width: 55%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .booking-form h2 {
+            color: #000000;
+        }
+        .booking-form label {
+            display: block;
+            margin: 10px 0 5px;
+            text-align: right;
+        }
+        .booking-form input, .booking-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #000000;
+            border-radius: px;
+        }
+        .booking-form button {
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition:  1000.9s ease;
+            
+             
+        }
+        .booking-form button:hover {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="booking-form">
+        <h2>نموذج الحجز</h2>
+        <form action="refresh page.html" method="post">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            </select>
+
+            <label for="date">تاريخ الحجز:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">تأكيد الحجز</button>
+        </form>
+    </div>
+
+</body>
+</html>

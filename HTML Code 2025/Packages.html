@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>باقاتنا المميزة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2a2a3a;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .package {
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: right;
+        }
+        .package h2 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .package ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .package ul li {
+            padding: 8px 0;
+            font-size: 16px;
+            color: #34495e;
+        }
+        .package ul li::before {
+            content: "✓";
+            color: #00d358;
+            margin-left: 10px;
+        }
+        .highlight {
+            color: #4e3431;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #ffffff; margin-top: 20px;">باقاتنا المميزة</h1>
+    <div class="container">
+        <div class="package">
+            <h2>خمس جولات</h2>
+            <ul>
+                <li>إقامة كفالة لمدة خمس ليال في جناح فاخر</li>
+                <li>حفرة  18 - خمس جولات</li>
+                <li>"جولة واحدة مضمونة في ملعب "سي فيو</li>
+            </ul>
+        </div>
+
+        <div class="package">
+            <h2>الجولة الثلاثية</h2>
+            <ul>
+                <li>إقامة لمدة ليلتين في غرفة مزدوجة مع وجبة افطار</li>
+                <li>حفرة  18 - ثلاث جولات</li>
+                <li>خصم  20% لمتجر المحترفين</li>
+            </ul>
+        </div>
+
+        <div class="package">
+            <h2>استراحة استجمام</h2>
+            <ul>
+                <li>إقامة ليلة واحدة مع وجبة افطار كاملة</li>
+                <li>تناول العشاء في أي من مطاعم المنتجع</li>
+                <li>إيجار نادي مجاني</li>
+            </ul>
+        </div>
+
+        
+    </div>
+</body>
+</html>
